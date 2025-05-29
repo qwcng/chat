@@ -1,0 +1,137 @@
+.notification-positive {
+    position: fixed;
+    display: flex;
+    height:64px;
+    backdrop-filter: brightness(20%);
+    border:2px solid #04AA6D;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    width:0px;
+    transition: 0.5s;
+    opacity:0;
+    z-index: 10;
+    top:20dvh;
+    right:0%
+    /* transform-origin: left; */
+
+
+}
+.notification {
+    position: fixed;
+    display: flex;
+    height:64px;
+    background:rgba(10, 10, 10, 0.699);
+    border:2px solid #04AA6D;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    width:0px;
+    transition: 0.5s;
+    opacity:0;
+    z-index: 10;
+    top:20dvh;
+    right:0%
+    /* transform-origin: left; */
+
+
+}
+.notify-sign{
+    border-right: 2.5px solid #04AA6D;
+    width: 64px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    /* padding: 10px; */
+
+}
+.notification-header{
+    padding: 10px;
+}
+.positive{
+    color:#04AA6D
+}
+
+.new-message {
+    display: flex;
+    position: absolute;
+    inset: 0; /* Centruje poziomo i pionowo */
+    margin: 50px auto; /* Automatyczne wyśrodkowanie */
+    z-index: 10;
+
+    height: 64px;
+    width: 80%;
+
+    background-color: rgba(105, 105, 105, 0.726);
+    animation: pop 0.4s;
+}
+
+
+/* .new-message::after,.new-message::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+
+    padding: 5px;
+    border-radius: 30px;
+    animation: spin 3s linear infinite  ;
+    background: conic-gradient(from var(--angle), transparent 90%, #0084FF);
+    z-index: -1;
+} */
+.bar{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    
+    /* width: 100px; */
+    height: 3px;
+    border-radius: 10px;
+    background-color:#2570b6;
+    
+}
+.bar::before{
+    content: "";
+    position: absolute;
+    /* top: 39%; */
+    left: 0%;
+    
+    width: 100%;
+    height: 3px;
+    
+    background-color:#359af8;
+    z-index: 10;
+    animation: progress 3s linear;
+
+}
+@keyframes progress{
+    from{
+        width: 0%;
+    }
+    to{
+        width:100%;
+        
+    }
+    
+}
+
+.new-message .friend{
+
+}
+.new-message-details{
+    display: flex;
+    flex-direction: row;
+}
