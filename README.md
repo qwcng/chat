@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">1. w terminalu(np. w folderze htdocs) wpisz komende git https://github.com/qwcng/chat.git<br>2.Zaimportuj bazę danych i nazwij ją chat_app lub skonfiguruj plik db.php dla swoich potrzeb.<br>3. Wpisz cd chat w terminalu<br>4. Uruchom kompilator php (np. xampp)<br>5. Wpisz w terminalu php server.php<br>5. wejdź w przeglądarce do localhost/chat/
+<p align="left">1. w terminalu(np. w folderze htdocs) wpisz komende git clone https://github.com/qwcng/chat.git<br>2.Zaimportuj bazę danych i nazwij ją chat_app lub skonfiguruj plik db.php dla swoich potrzeb.<br>3. Wpisz cd chat w terminalu<br>4. Uruchom kompilator php (np. xampp)<br>5. Wpisz w terminalu php server.php<br>5. wejdź w przeglądarce do localhost/chat/
 <br> 6. Strona jest bardziej przystosowana pod werjse mobilną
 <br> 7. Przykładowe loginy kont: <br>
     email: hasło:  <br>
